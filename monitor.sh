@@ -1,0 +1,11 @@
+
+echo "get_battery_percent" $(curl -s http://192.168.43.1/cgi-bin/get_battery_percent)
+echo "get_progress_bar" $(curl -s http://192.168.43.1/cgi-bin/get_progress_bar)
+echo "get_skyroam_service_error_string" $(curl -s http://192.168.43.1/cgi-bin/get_skyroam_service_error_string)
+echo "get_service_url" $(curl -s http://192.168.43.1/cgi-bin/get_service_url)
+echo "get_data_link_status" $(curl -s http://192.168.43.1/cgi-bin/get_data_link_status)
+echo "get_wifi_status" $(curl -s http://192.168.43.1/cgi-bin/get_wifi_status)
+echo "get_dev_info" $(curl -s http://192.168.43.1/cgi-bin/get_dev_info)
+echo "get_onekey_dp_status" $(curl -s http://192.168.43.1/cgi-bin/get_onekey_dp_status)
+echo "get_hwsim_status" $(curl -s http://192.168.43.1/cgi-bin/get_hwsim_status)
+#echo "get_bt_client" $(curl -s http://192.168.43.1/cgi-bin/get_bt_client)

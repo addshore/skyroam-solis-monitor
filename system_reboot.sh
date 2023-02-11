@@ -1,0 +1,1 @@
+curl -s http://192.168.43.1/cgi-bin/system_reboot
